@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background-color: #f7f7f7;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #00c;
+}
+
+table {
+    width: 70%;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 2px solid;
+    /* ✅ adicionado "solid" */
+    margin-right: 275px;
+    /* ✅ "PX" → "px" */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 0vh;
+    align-items: center;
+    margin-right: 50px;
+}
+
+th {
+
+    background-color: #4d90fe;
+    letter-spacing: 0.6px;
+}
+
+td {
+
+    background-color: rgb(121 121 121);
+}
+
+th,
+td {
+    border-radius: 5px;
+
+    text-align: center;
+    padding: 12px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.botao {
+    color: rgb(255 255 255);
+    background-color: #4d90fe;
+    width: 150px;
+    /* ✅ largura fixa */
+    height: 150px;
+    /* ✅ altura igual à largura */
+    border-radius: 100%;
+    /* ✅ isso garante o círculo perfeito */
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border: 3px solid rgb(0 0 0);
+    margin-top: 5%;
+    margin-right: 8.5%;
+}
+
+.botaodiv {
+    display: flex;
+    justify-content: flex-end;
+}
